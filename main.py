@@ -17,21 +17,11 @@ import django
 django.setup()
 
 # Import your models for use in your script
-from db.models import *
+from db.models import Product
 
 ############################################################################
 ## START OF APPLICATION
 ############################################################################
-import os
-import django
-
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
-django.setup()
-
-from db.models import Product
-
-
 def populate_database():
     Product.objects.all().delete()  # clear old data
 
