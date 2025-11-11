@@ -11,10 +11,20 @@ This project uses the Django Framework to demonstrate the use of Django’s Obje
 It is designed to operate without running a full Django web server, focusing on database functionality, models, and data manipulation directly through Python scripts.
 
 db/               # Directory used to store the SQLite database or related database files
+
+
 __init__.py       # Marks the directory as a Python package
+
+
 models.py         # Defines Django ORM models representing database tables
+
+
 main.py           # Main Python script to interact with the Django ORM 
+
+
 manage.py         # Django’s command-line utility for running management tasks 
+
+
 settings.py       # Django configuration file for database, installed apps, and environment setup
 
 Q1: Screendumps of working application.
