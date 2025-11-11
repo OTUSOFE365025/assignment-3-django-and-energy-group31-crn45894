@@ -2,7 +2,9 @@ Assignment 3 Group 31 Software Design
 
 
 Logan Yee: Q2
+
 Fahmid Zahid: Q1
+
 Bilal Brohi: Q1
 
 Django ORM Project
